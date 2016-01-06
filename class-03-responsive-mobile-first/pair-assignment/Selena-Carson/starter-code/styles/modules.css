@@ -27,10 +27,10 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .main-nav:hover ul {
+  .main-nav:hover ul, {
     display: block;
   }
-  header:hover ul {
+  header:hover ul, {
     display: block;
   }
 }
