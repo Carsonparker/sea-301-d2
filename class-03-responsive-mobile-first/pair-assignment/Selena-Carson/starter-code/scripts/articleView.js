@@ -63,10 +63,9 @@ articleView.setTeasers = function() {
 };
 
 articleView.handleMobile =function() {
-  $('.main-nav').on('click touch', function(){
-    $('.main-nav').find('ul').slideToggle();
-
-  })
+  $('.icon-menu').on('click', function() {
+    $('nav ul').slideToggle();
+  });
 }
 
 $(document).ready(function() {

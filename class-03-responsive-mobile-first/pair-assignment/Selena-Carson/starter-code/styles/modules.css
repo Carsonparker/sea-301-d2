@@ -9,30 +9,20 @@
 }
 
 /*DONE: Hamburger moved right and is larger. */
-.icon-menu {
-  float:right;
-  font-size: 3em;
-  display:block;
-}
 
 .main-nav {
   padding: 0.1em;
 }
 
 .main-nav ul {
-  display: none;
   padding: 0;
   list-style: none;
   clear: both;
 }
 
-@media only screen and (max-width: 640px) {
-  .main-nav:hover ul, {
-    display: block;
-  }
-  header:hover ul, {
-    display: block;
-  }
+
+.main-nav:hover ul, {
+  display: block;
 }
 
 .main-nav li {
@@ -65,13 +55,21 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+@media only screen and (max-width: 640px) {
+  .icon-menu {
+    float:right;
+    font-size: 3em;
+    display:block;
+  }
+  .main-nav ul {
+    display: none;
+  }
+}
 @media only screen and (min-width: 640px) {
   .icon-menu {
     display: none;
   }
-  .main-nav ul {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  #nav-bar {
+    display: block;
   }
 }
