@@ -1,4 +1,6 @@
-# Assignment for Class 13 -  Production Deployment
+# Pair and Individual Coding Assignments for Class 13 - Production Deployment
+
+#### NOTE: This assignment applies to both the pair coding (blog) and the individual (portfoloio) assignments for Class 13.
 
 Ready to share what you've made with the world? Yes!
 
@@ -19,3 +21,11 @@ We'll be using Heroku as our production server. Heroku is a "Platform as a Servi
  - Ensure your code passes ESLint
  - Do not create your Heroku app with a default name.
  - Link to your live site in your README, for whichever repo you deploy.
+
+ ## Class videos
+  - [Part 1 of 4]()
+  - [Part 2 of 4]()
+  - [Part 3 of 4]()
+  - [Part 4 of 4]()
+
+ ## Helpful Resources
